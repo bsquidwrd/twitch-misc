@@ -31,4 +31,4 @@ Do this by running whichever file suits your system
 * `/reset` - This will delete all subscriptions you have setup with the `client_id` defined in `main.py`
 * `/list` - This will return a list of all subscriptions for the `client_id` defined in `main.py`
 * `/webhooks/callback` - Used for Twitch to POST back to and handles all events currently available to Eventsub (as of 2021-07-28)
-  * If an subscription type is not implemented/handled then the raw JSON from Twitch will be printed to console
+  * If a subscription type is not implemented/handled then the raw JSON from Twitch will be printed to console
