@@ -1,4 +1,4 @@
-from flask import Flask, jsonify, request, Response, render_template, redirect
+from flask import Flask, request, Response, render_template
 import hmac
 import hashlib
 import requests
